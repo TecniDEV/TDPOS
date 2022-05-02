@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDPOS", "TDPOS\TDPOS.csproj", "{77FA759F-F4D4-4349-A6AE-AFDE63136101}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDPOS", "TDPOS\TDPOS.csproj", "{77FA759F-F4D4-4349-A6AE-AFDE63136101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDModels", "TDModels\TDModels.csproj", "{1A250015-00DE-488B-BEA8-380F8D73F881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDPresenters", "TDPresenters\TDPresenters.csproj", "{35F898D8-3D65-4FF8-B604-D4862070A999}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{77FA759F-F4D4-4349-A6AE-AFDE63136101}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77FA759F-F4D4-4349-A6AE-AFDE63136101}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77FA759F-F4D4-4349-A6AE-AFDE63136101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A250015-00DE-488B-BEA8-380F8D73F881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A250015-00DE-488B-BEA8-380F8D73F881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A250015-00DE-488B-BEA8-380F8D73F881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A250015-00DE-488B-BEA8-380F8D73F881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35F898D8-3D65-4FF8-B604-D4862070A999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35F898D8-3D65-4FF8-B604-D4862070A999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35F898D8-3D65-4FF8-B604-D4862070A999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35F898D8-3D65-4FF8-B604-D4862070A999}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
